@@ -1,0 +1,95 @@
+What is a Class?
+ A class is a  group of object which have common properties. It is a blueprint or template from which object are created. A java class can contains  fiels, methods , Constructor and block of code.
+
+What is an Object?
+  An object is Instance of a class.
+  It is a Realtime entity or real world entity.
+Syntax for Object:
+ClassName objectName=new ClassName();
+
+What are the naming Conventions to followed while creating java class?
+  Pascal Notations:
+    ClassName--> Starting first letter should be capital , when we have multiple words each words should start with uppercase.
+
+CamelCase:
+    methodName, variableName, objectName---> starting first letter with lowercase,
+when we have multiple words second word onward init should be capital.
+
+Syntax for class:
+     public class FirstProgram{
+             ------block of code-----
+             ------------
+               }
+
+ public -- Access Modifier
+ class --- Keyword
+ FirstProgram -- name of the class
+
+Syntax for method:
+     public void addTwoNumber(){
+     --------block of code------------
+     -----------------
+}
+     
+public -- Access Modifier
+void   --- Return type
+addTwoNumber -- name of the method
+
+Syntax for Object:
+ClassName objectName=new ClassName();
+
+
+Explain main method?
+
+	Main() method is the entry point of any standalone java application. The syntax of main method ispublic static void main(String args[]). 
+
+public : Public is an access modifier, which is used to specify who can access this method. Public means that this Method will be access by any Class.
+
+static : It is a keyword, it can be accessed without creating the instance of a Class.
+
+void : void is return type, here does not return anything.
+
+main: It is the name of the method which is searched by JVM as a starting point for an application with a particular signature only. 
+
+String args[] : It is the parameter passed to the main method.
+
+
+Difference between Local Variable and Global Variable?
+Local Variable                                Global Variable
+If you are declaring the variables      If you are declaring the variables
+inside a method, That is called as      inside a class, and outside of the method
+Local Variable                          That is called as Global variable.
+
+should be Initialized                   May or may not be Initialized
+
+if you are declaring the local          if you are declaring the Global
+variable, it will be accessing only     variable, it will be accessing any where of
+with in a method, but it can not         this class.
+accessed outside the method.
+
+For local variable access modifier     For Global variable access modifier
+can't be used.                         can be used.
+
+Access Modifiers:
+public  -- Access from any where of the project
+private  -- Access only  with in a class
+protected --- Access from  with in package , we can able to access outside of the package but the class should be inherited
+default  -- Access only with in a package
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
