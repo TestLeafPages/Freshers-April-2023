@@ -1,0 +1,92 @@
+for(initialization; condition;Increment / Decrement){
+       execution
+}
+
+1.Initialization
+2.Condition
+3.Execution
+4.Increment/ Decrement
+
+
+for(int i=0; i<5;i++){
+
+System.out.println(i);
+
+}
+
+command line
+// sinkgle line command
+ctrl +shift/+/ multiple line
+
+If Condition:
+ 
+   if(condition){
+  // when my conditions is true, the if block get execute
+     }
+
+
+
+int a=10;
+int b=20;
+
+    if(a>b){
+    System.out.println("Condition is true");
+    }
+
+If..else Condition:
+   if(condition){
+  // when my conditions is true, the if block get execute
+     }else{
+---- block 0f code---
+}
+
+Operator:
+Arithmatic Operator
+ +,-,*,/,%
+
+4/2=2
+
+4%2=0
+
+Logical Operator:
+&&
+||
+!
+
+Relational  Operator;
+<,>,<=,>=,==,!=
+
+a==b;  a!=b;
+
+
+1*10=10
+2*10=20
+3*10=30
+
+Swapping between two number
+input:
+int a=100;
+int b=200;
+output:
+int a=200;
+int b=100;
+
+
+*
+**
+***
+****
+*****
+
+
+
+
+
+
+
+
+
+
+
+
+
