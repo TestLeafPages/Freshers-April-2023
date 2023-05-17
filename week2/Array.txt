@@ -1,0 +1,177 @@
+Print 1 to 20 Even Number
+
+inoput: 1 to 20
+Output: 2,4,6,8,10..20
+
+Pseudocode:
+step1:Iterate the for loop from 1 to 20
+step2: Check the values is even using % operator, if it is remainder is 0
+Step3: To print the even number
+
+
+public class PrintEvenNumber{
+
+public static void main(String []args){
+//step1:Iterate the for loop from 1 to 20
+for(int i=1; i<=20;i++){
+//Check the values is even using % operator, if it is remainder is 0
+  if(i%2==0){
+//Step3: To print the even number
+
+System.out.println("Even value is"+ i);
+}
+}
+}
+
+public class SwappingBetweenTwoNumber{
+
+public static void main(String []args){
+    //Initialize a is 10
+    int a=10;
+   //Initialize b is 20
+    int b=20;
+  // to add the both values and store it a  varisable
+  a=a+b
+   a= 10+20
+   a=30;
+//subract two variables and store the b variable
+  b=a-b
+    30-20
+   b=10
+//subract two variables and store the a variable
+  a=a-b
+   30-10
+  a=20
+//Finally print the a and b values
+
+}
+}
+
+public class Factorial{
+
+ 5!
+5*4*3*2*1
+120
+Pseudocode:
+Step1: Initialize the temp variable as sum
+step2: Iterate the values using reverse for loop
+step3: multiply each iterating values and store in sum 
+
+int sum=1;
+for(int i=5; i>=1;i--){
+    5=1*5
+       20=5*4
+           60=20*3
+                120=60*2
+                     120=120*1
+sum=sum*i;
+}
+System.out.println(sum);
+
+0,1,1,2,3,5,8,13... Fibonaci Series
+
+ // initialize 3 int variables (Tip: range = 8, firstNum = 0, secNum = 1, sum in the series)
+   int range = 8;
+  int  firstNum = 0;
+// Print first number
+System.out.println(firstNum);
+  int  secNum = 1;
+// Print second number
+System.out.println(secondNum);
+  int sum=0;
+		
+		// Iterate from 1 to the range
+       for(int i=1; i<=range;i++){
+		
+// add first and second number assign to sum
+     sum=firstNum+secondNum;
+// print sum
+   System.out.println(sum);
+		// Assign second number to the first number
+                firstNum=secondNum;
+
+		// Assign sum to the second number
+		secondNum=sum;
+		
+
+
+
+
+
+  sum    f   s
+  1= 0 + 1
+         sum   f  s
+         2= 1 +1
+               sum  f s
+               3=  1+2
+                       sum f s
+                         5=2+3
+                              sum f s
+                              8= 3+5
+                               sum  f  s
+                                13=  5+8
+                                    sum f   s
+                                         21=8 +13
+
+                               
+
+
+
+    
+}
+}
+
+Arrays:
+
+
+int a=30;
+ int b =50;
+   int c=100;
+ Arrays is collection of similar data types.
+  Array is a class , non -primitive data type
+  Array index starting from 0
+  Fixes Array size
+  we can not increse the Array size at run time.
+
+
+int[] num={1,2,3,4};
+
+ how will you declare an Array;
+  1.Array literal;
+   int[] num={1,2,3,4};
+  2.Using new keyword
+   String[] name=new String[5];
+
+Types:
+ 2 - types
+   One Dimensional Array:
+     List and Set
+   Two Dimensional Array:
+    Map
+
+
+Data types:
+int[]
+long[]
+float[]
+double[]
+byte[]
+char []
+boolean[]
+short[]
+
+int[] marks={90,90,96,99,90};
+
+
+int[] num={1,2,3,4,6,8,9};
+
+int[] numbers={11,21,31,21,8,9,11};
+output: 11,21
+
+for(int i =0;i<numbers.length;i++){
+
+
+
+
+
+
