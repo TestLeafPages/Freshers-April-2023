@@ -1,0 +1,144 @@
+
+
+Missing Element
+int[] arr = {1,2,3,4,7,6,8};
+//sort 
+1,2,3,4,6,7,8,
+for (int i = 0; i < arr.length; i++) {
+        	//initialize the temp variable as j and j=i+1
+        	int j=i+1;
+        	//int[] arr = {1,2,3,4,7,6,8};
+        	//1,2,3,4,6,7,8,
+        	//if the condition is match print the missing element
+			if(arr[i]!=j) {
+                      1st iteration
+                       i=0 
+                       1 !=1
+                         2nd iteration
+                       i=1 
+                      2 !=2
+                         3rd iteration
+                       i=2 
+                      3!=3
+                          4th iteration
+                       i=3 
+                      4!=4
+                          5th iteration
+                       i=4 
+                      6!=5
+				System.out.println(j);
+				break;
+			}
+
+
+int[] numbers={11,21,31,21,8,9,11};
+	//output: 11,21
+	
+	for (int i = 0; i < numbers.length; i++) {
+		for (int j = i+1; j < numbers.length; j++) {
+			
+			if(numbers[i]==numbers[j]) {
+                           11==21
+                           11==31
+                           11==21
+                           11==8
+                           11==9
+                           11==11
+                           21==31
+                           21==21
+                           21==8
+                           21==9
+                           21==11
+
+				System.out.println(numbers[i]);
+			}
+		}
+
+
+String;
+1.Sequence of character is called String
+2.NoN-primitive data types, String is a class
+3.64 bit memory
+4.String is immutable object,Which means it is constant and can not changed once it has been created
+
+String literal
+String str="testleaf";
+
+Using new keyword
+String name=new String("Test");
+
+
+String name ="testleaf";
+     output: t,e,s,t,l,e,a,f
+//String converted into character using tocharArray method
+   char[] charArray=  name.toCharArray();
+
+//Iterating the values using for loop
+      for(int i=0;i<charArray.length;i++){
+     System.out.println(charArray[i]);
+}
+
+String method:
+1.length() --> to get the size of the String
+2.toCharArray --> String converted into character
+3. .equals() ---> to compare the both String content
+4.split()    ---> to segriate the given sentence into words
+5.replaceAll() --> to replece the String
+
+
+
+
+
+  Palindrome
+Pseudocode:
+//1.Declare a String as input
+    String input="madam";
+//2.Declare an empty String as rev
+    String rev="";
+//3.Convert the String into character array
+  char[] charArray=  input.toCharArray();
+         m,a,d,a,m
+
+//4.Iterate the Character using reverse for loop
+for(int i=charArray.length-1; i>=0;i--){
+    rev= rev+charArray[i];
+            m
+            a
+             d
+             a
+             m
+}
+System.out.println(rev);
+
+//verify if the String is Palindrome or not
+if(input.equals(rev){
+      System.out.println("The given string is palindrome");
+}else{
+   System.out.println("The given string is not palindrome");
+
+}
+
+
+
+
+
+
+
+ Pseudo Code
+	 
+	 * Declare String Input as Follow
+	  
+	 * String test = "changeme"; 
+                          cHaNgEmE
+	 * a) Convert the String to character array
+	 
+	 * b) Traverse through each character (using loop)
+	 
+	 * c)find the odd index within the loop (use mod operator)
+	 
+	 * d)within the loop, change the character to uppercase, if the index is odd else don't change
+
+
+
+
+
