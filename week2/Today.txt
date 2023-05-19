@@ -1,0 +1,115 @@
+Palindrome
+   amma 
+       amma
+String text="amma";
+
+String rev="";
+
+char[] charArray = text.toCharArray();
+
+      a,m,m,a
+  for(int i=charArray.length-1; i>=0;i--){
+          rev=rev+  charArray[i];
+}
+
+
+Missing Element
+int[] num={1,2,3,4,6,7,8};
+output =5;
+
+int sum1=0;
+
+for(int i=1; i<=8;i++){
+   sum1=sum1+i;
+}
+1+2+3+4+5+6+7+8
+==36
+
+int sum2=0;
+for(int i =0;i<num.length;i++){
+sum2=sum2+num[i];
+}
+
+1+2+3+4+6+7+8
+==31
+
+int sum3=sum1-sum2;
+
+System.out.println(sum3);
+
+
+for(int i=0;i<num.length;i++){
+   if(num[i]!=i+1){num={1,2,3,4,6,7,8};
+0---->     1!=1
+1---->     2!=2
+2---->     3!=3
+3---->     4!=4
+4---->     6!=5 
+          //5
+
+System.out.println(i+1);
+break;
+}
+
+
+PrintDuplicate:
+int[] num={1,2,3,4,5,6,7,1,2,3};
+//1,2,3
+
+for(int i=0;i<num.length;i++){
+     for(int j=i+1; j<num.length;j++){
+            if(num[i] == num[j]){
+               
+
+
+
+Scanner scan=new Scanner(System.in);
+Syetem.out.println("Enter the input");
+
+String input=scan.nextLine();
+
+char[] charArray=input.toCharArray();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
