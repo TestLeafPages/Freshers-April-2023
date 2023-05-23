@@ -1,0 +1,32 @@
+How to handle a dropdown :
+                        To handle a dropdown use --> Select Class.
+                            selectByValue -- > index starts from 0
+                            selectByIndex 
+                            selectByVisibleText
+
+xpath : 
+    xpath ---> xml path
+
+    precondition to write xpath :  open DOM and press a keys ctrl + f ---> find by string or selctor or xpath
+
+    Types of xpath :
+                    absolute xpath --> starts from html , starts with single slash (/)
+                    /html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div/form/div/div/input
+                    relative xpath --> starts from current node, Starts with double slash(//)
+
+                    relavite xpath types :
+                                            attribute based xpath -->
+                                            syntax : //tagname[@attributeName='attributeVale']
+                                            //input[@type='password']
+
+                                            text based xpath -->
+                                            Syntax : //tagname[text()='text']
+                                            //button[text()='Log in']
+
+                                            index based xpath -->
+                                             Syntax : (attribute based xpath or text based xpath)[2]
+                                             index starts from 1.
+
+                                            contains based xpath -->
+                                            Syntax : //tagname[contains(@attributeName,'partialAttributeValue')]
+                                            Syntax : //tagname[contains(text(),'partialText')]
