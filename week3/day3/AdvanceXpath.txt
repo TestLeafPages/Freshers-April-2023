@@ -1,0 +1,17 @@
+Advance xpath:
+
+            relationship based xpath
+                parent to child relationship
+                    syntax : xpath for parent / tagName of child
+                                //p[@class='top']/input
+                child to parent relationship
+                    syntax : xpath for child / parent:: parent tagName
+                                //input[@id='username']/parent::p
+                GrandParent to GrandChaild relationship 
+                    syntax : xpath for GrandParent // tagName of GrandChild
+                                //td[@class='x-grid3-col x-grid3-cell x-grid3-td-partyId x-grid3-cell-first ']//a
+                GrandChild to GrandParent relationship
+                    syntax :  xpath for GrandChild/ ancestor:: tagName of GrandParent
+                                //a[text()='10246']/ancestor::td
+
+         
