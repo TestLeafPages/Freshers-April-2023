@@ -1,0 +1,33 @@
+ Exception Handling
+    Exceptions  is an abnormal condition which will interupt normal flow of excution
+
+Exception Handling
+ To enable the flow  of execution
+
+Compile Time Exception
+Run Time Exception
+
+1.NoSuchElementException
+2.InvalidSelectorException
+3.StaleElementReferenceException
+4.NoAlertPresentException
+5.UnHandledAlertException
+6.NoSuchFrameException
+7.NoSuchWindowException
+8.ElementClickInterceptedexception
+9.ElementInteractedException
+10.MoveTargetOutOfBoundException
+
+Compile Time Exception
+IO Exception
+InterruptedException
+
+
+
+throw                              throws
+ both are keywords
+Throw used to throw the       Its is like method signature,
+exception explicitly.         Used to handle that exceptions.
+
+At a time we can able to      At a time we can able to throws 
+throw single exception only.  more than one exceptions.
