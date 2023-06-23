@@ -1,0 +1,24 @@
+Test NG
+Test NG- Next Generation
+
+Advantages:
+  1,To run Multiple testcase sequence
+  2,To run Multiple testcase parallel
+  3,To get the test status
+  4,To generate the report
+
+How to convert plain script into test case
+1,Convert main method into normal method
+2,On top of the method put @Test annotations
+
+Add the dependency in pom.xml file
+
+<dependencies>
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.4.0</version>
+</dependency>
+</dependencies>
+
+           
