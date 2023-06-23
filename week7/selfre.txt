@@ -1,0 +1,202 @@
+Selenium WebDriver
+   Selenium can automate only web based application
+Browser:
+  firefox,chrome,safari,edge,opera
+
+What is Selenium:
+1,Selenium can automate only web based application
+2,It is open source
+3,It support multiple languages
+4,it support multiple Browser
+
+Selenium Componets:
+1,Selenium IDE
+2,Selenium Grid
+3,Selenium WebDriver
+
+How to launch Chrome browser
+ChromeDriver driver=new ChromeDriver();
+
+
+Locators:           When to use               Don't use
+1,id                unique                   if id has number
+2,name              unique                   Multiple matches
+3,className         unique                inbetween Whitespace
+4,linkText          a
+5,partialLinkText   a
+6,tagName
+7,cssSelector
+8,xPath
+
+
+Xpath
+XML path - extensible markup language
+ 2types:
+Absolute xpath                          Relative xpath
+1,Starting from root node           Starting from current node
+2,Start with single (/)            Start with double (//)
+
+FindElement()                      
+1,Find first matching element    
+2,it will return WebElement    
+3,Its throw NoSuchElementException  
+
+ FindElements()
+1,find more than one element
+2,it will return List<WebElement>
+3,It does not throw any exception
+
+Target Locator:
+Target Locator--Interface
+Implementation class-RemoteTargetLocator
+switchTo()-- return type Target Locator
+ 1,Alert
+  2,Frame
+   3,Window Handling
+
+Alert:
+Alert is a small message box which display on screen notification, to give some infomation to the user
+
+2types:
+1,Model Dialogue
+2,Non-Model Dialogue
+
+Model Dialogue:
+1,We can not inspect in dom
+2,Until handle the alert, we can not iteract with any webelement
+ 3-Types
+ 1,Simple Alert
+ 2,Confirmation Alert
+ 3,Prompt Alert
+
+Non-Model Dialogue:
+  Its a sweet alert 
+
+methods:
+accept()
+dismiss()
+getText()
+sendKeys()
+
+exceptions:
+ 1,NoAlertPresentException
+ 2,unHandledAlertException
+
+driver.switchTo().alert()
+
+Frame:
+driver.switchTo().frame(int index);
+driver.switchTo().frame(String nameOrId);
+driver.switchTo().frame(WebElement element);
+
+DefaultContent:
+     driver.switchTo().defaultContent()-- it comes out of the frame
+
+ParentFrame();
+      driver.switchTo().parentFrame()-- it will move to immediate parent
+
+Exception:
+NoSuchFrameException
+Winbdow Handling:
+  
+driver.getWindowHandle()-- it return String ---cureent Active Window
+
+driver.getWindowHandles()-- it return Set<String> ---Opened child window
+
+Set<String> childWindow=driver.getWindowHandles();
+Set Implementation class:
+1,HashSet   Random
+2,TreeSet   Ascii order
+3,LinkedHashSet  based on insertion order
+
+driver.getWindowHandles();--LinkedHashSet
+
+List<String> openedWindow=new ArrayList<String>(childWindow);
+
+driver.switchTo().window(openedWindow.get(1));
+
+Exception:
+NoSuchWindowException
+
+SnapShot:
+File source= driver.getScreenshotAs(OutputType.FILE);
+	
+	File destination =new File("./report/001.jpeg");
+
+	FileUtils.copyFile(source, destination);
+	
+	FileHandler.copy(source, destination);
+
+
+Final:
+ Fianl is keyword ,Non-access modifier
+ we can able to use class , method and variable
+final class:
+    we can not inherit with another class
+final method:
+     we can not overridden
+final variable:
+ it is constant, we can not modify
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
