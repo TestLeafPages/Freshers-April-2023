@@ -1,0 +1,79 @@
+Target Locator
+TargetLocator----Interface
+RemoteTargetLocator ---Implementation class
+
+SwitchTo()---return targetLocator
+
+1.Alert
+2.Frame
+3.WindowHandling
+
+Alert:
+ Alert--- Interface
+  RemoteAlert-- Implementation Class
+     
+  driver.switchTo().alert();
+  1. We can not Inspect an Alert
+
+       Alert --- build by JavaScript
+1.Model Dialogue
+   1.Simple Alert
+   2.Confirmation Alert
+   3.Prompt Alert
+2.Non-Model Dialogue
+
+
+Alert Method
+accept()
+dismiss()
+getText()
+sendKeys()
+
+2.Non-Model Dialogue
+  Its a Sweet Alert
+   we can Inspect in DOM
+
+Frame:
+
+*_Assignment_*
+a)Launch the browser
+b)Load the url https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm
+c)Handle the frame
+d)Click on Try It Button
+e)Pass your name using sendKeys()
+f)Confirm if the action is performed correctly by verifying the text
+
+2.https://leafground.com/alert.xhtml
+3.https://leafground.com/frame.xhtml
+
+
+
+
+findElement()                      findElments()
+single  WebnElement or single      more than one matches
+matching element
+
+return WebElement                 return List<WebElement>
+
+NoSuchElementException             empty list Size 0
+
+
+
+WindowHandling
+driver.getWindowHandle()-- String ---ParentWindow
+
+driver.getWindowHandles() ---Set<String> --ChildWindow
+
+
+
+
+
+
+
+
+
+
+
+
+
+

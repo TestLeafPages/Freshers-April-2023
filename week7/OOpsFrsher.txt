@@ -1,0 +1,250 @@
+Oops :
+Abstraction
+      Interface
+      Abstract Class
+Inheritance
+       Single Inheritance
+       Multiple Inheritance
+       Multilevel Inheritance
+Encapsulation
+Polymorphism
+       Method Overloading
+       Method Overriding
+
+
+
+
+Inheritance
+   Inheriting variables and methods from super class to sub class
+       Single Inheritance
+Selenium:
+ChromeDriver extends ChromiumDriver
+
+Java:
+ArrayList extends AbstractList
+
+NoSuchElementException extends RuntimeException
+       Multilevel Inheritance
+Selenium:
+ChromeDriver extends ChromiumDriver
+ChromiumDriver extends RemoteWebDriver
+
+
+Java:
+ArrayList extends AbstractList
+AbstractList extends AbstractCollection
+NoSuchElementException extends RuntimeException
+RuntimeException extends Exception
+
+
+PolyMorphism
+Poly -- many
+Morphism -- multiple form of Implementation
+
+MethodOverloading:
+   Same class and same method with different aruguments
+
+java:
+ println()
+selenium:
+ driver.switchTo().frame(int Index);
+ driver.switchTo().frame(String nameOrId);
+ driver.switchTo().frame(WebElement element);
+
+Method Overriding:
+ Different class with same method name , but ths class should be inherited..
+
+java:
+ .equals()
+selenium:
+   driver.quit();
+
+Abstraction:
+     Interface:
+        Interface is a Design
+        iterface have only unimplement method
+        We can not create object for an Interface..
+
+
+AbstractClass
+1.A class which is declared with the abstract keyword is known as an abstract class in Java. It can have Implement and UnImplement methods .
+2.Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+3.We ccan not create object for an Abstract class...
+AndroidTvDesign
+
+SwitchOnTv
+changeChannel()
+increseVolume
+ Collections:
+
+Collections  -- class
+Collection -- Interface
+One Dimensional Array
+List  --Interface
+Set   -- Interface
+Two Dimensional Array
+Map  --Interface
+
+Data types:
+int        Integer
+float      Float
+long       Long
+double     Double
+short      Short
+byte       Byte
+boolean    Boolean
+char       Character
+
+List Properties:
+ 1.Maintain the Insertion order
+ 2.Allow Duplicate values
+
+Implementation Class:
+1.ArrayList
+2.LinkedList
+
+List<> obj=new ArrayList();
+List --Interface
+<> -- generic
+
+methods:
+add()  -- To add the elements in List
+size() -- To get the size of the given List
+get()  -- To get the particular element in the given List
+
+
+Set:
+1.does not allow duplicate
+2.May or May not be maintain the insertion order
+
+Implementation Class:
+1.HashSet              -  Random Output
+2.TreeSet              - Ascii order 
+3.LinkedHashSet        - Insertion order
+
+Elder sibling to younger sibling
+Elder sibling xpath/ following-sibling::tag name of younger sibling
+//label[text()='Username']/following-sibling::input
+
+younger sibling to Elder sibling
+Younger sibling xpath/preceding-sibling::tag name of elder sibling
+//input[@id='username']/preceding-sibling::label
+
+Elder cousin to younger cousin
+Elder cousin xpath/following::younger cousin tag name
+//span[text()='From Lead']/following::img
+
+Younger cousin to Elder cousin
+
+Attribute based xpath
+//tagName[@Attribute='attributeValue']
+
+
+Text based xpath
+//tagName[text()='textValue']
+
+Collections based xpath
+(//tagName[@Attribute='attributeValue'])[Index]
+
+Contains based xpath:
+//tagName[contains(@Attribute,'Partial Attribute Value')]
+
+//tagName[contains(text(),'Partial text Value')]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
